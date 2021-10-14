@@ -1,0 +1,53 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Filter App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <style type="text/css">
+  h3
+  {
+    font-size: 25px !important;
+  }
+  canvas {
+  	border:1px solid black;
+  }
+  </style>
+</head>
+
+<body style="background-color: aqua; font-family: 'Amatic SC', cursive;">
+    <center>
+<div class="container">
+	<h3 class="btn btn-primary">Filter App</h3>
+	<hr>
+  <label>Filter Colour:</label>
+  <input id="colour" placeholder="Type colour name">
+  <br>
+  <br>
+  <br>
+  <button onclick="change()" class="btn btn-info" style="font-family: 'Cookie', cursive; font-size: 20px !important;">Apply Filter</button>
+  <br>
+  <br>
+  <button onclick="take_snapshot()" class="btn btn-success"  style="font-family: 'Cookie', cursive; font-size: 20px !important;">Take Snapshot</button>
+</div>
+</center>
+
+<script src="main.js"></script>
+</body>
+
+</html>
